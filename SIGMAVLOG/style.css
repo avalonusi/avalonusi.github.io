@@ -1,0 +1,98 @@
+body {
+    overflow-x: hidden;
+    background: white;
+    background-size: cover;
+}
+header {
+    background-color: white;
+    text-align: center;
+    height: 70px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 4px;
+    z-index: 100;
+    margin: -15px;
+}
+.square {
+    background-color: rgb(31, 143, 255);
+    width: 1920px;
+    height: 4px;;
+}
+.square1 {
+    width: 1700px;
+    height: 300px;
+    background-color: #222222;
+}
+.main {
+    transition: 1s;
+    text-align: center;
+}
+.knopka {
+    position: relative;
+    display: inline-block;
+    margin-left: 500px;
+    top: -10px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;color:black;
+    margin: 30px;
+    transition: 1s;
+}
+a:hover {
+    color: rgb(31, 143, 255);
+    text-shadow: 0px 0px 5px rgb(0, 128, 255);
+    text-decoration: underline;
+}
+.mainbutton {
+    top: 500px;
+    background-color: white;
+    transition: 1s;
+    left: 100px;
+    color: gray;
+    box-shadow:0px 3px 0px rgb(28, 142, 255), 4px 3px 0px rgb(18, 95, 171);
+}
+.mainbutton:hover {
+    background-color: black;
+    box-shadow: 0px 0px 10px rgb(31, 143, 255);
+    transform: scale(1.03);
+    color: white;
+}
+.batton {
+    color: rgb(31, 143, 255);
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    min-width: 200px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'bachn';
+    color: color;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 12px 24px;
+    border: 3px solid blue;
+    transition: all 0.3 s ease-in-out;
+  }
+  
+  .batton:hover {
+    text-decoration: none;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgb(31, 143, 255);
+    transform: translateY(-3px);
+    color: rgb(31, 143, 255);
+    border: 3px solid rgb(31, 143, 255);
+  }
+.blog2 {
+    transition: 1s;
+}
+.blog2:hover {
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+}
+.bg1 {
+    width: 1920px;height: 1000px; filter: blur(1px);z-index: -1;
+    box-shadow: inset (0px 200px 200px white);
+    box-shadow: inset 0px -400px 100px -200px #070707
+}
+
