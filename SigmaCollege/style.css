@@ -21,7 +21,10 @@ header {
     width: 100%;
     border-radius: 4px;
     z-index: 99;
-    position: fixed;    
+    position: fixed;   
+    top: 0;
+    left: 0;  
+   
    
 }
 
